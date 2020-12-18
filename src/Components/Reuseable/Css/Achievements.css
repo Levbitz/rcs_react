@@ -1,0 +1,16 @@
+.lb_achievement_wrapper {
+  padding-top: 30px;
+}
+
+.lb_achievement_h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.lb_doing_wrapper {
+  background: red;
+}
+.lb_awards_wrapper {
+  background: blueviolet;
+}

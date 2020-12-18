@@ -1,0 +1,39 @@
+.about_wrapper {
+  background-image: url("../../../Images/about_banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+}
+
+@media screen and(max-width :670px) {
+  .about_wrapper {
+    min-height: 30vh !important;
+  }
+}
+
+.my_about_content {
+  margin-top: 100px;
+}
+@media screen and(max-width :670px) {
+  .my_about_content {
+    margin-top: 10px;
+  }
+}
+.my_about_content h2 {
+  font-weight: 700;
+  line-height: 5rem;
+}
+
+@media screen and(max-width :670px) {
+  .my_about_content h2 {
+    font-weight: 300;
+    line-height: 1rem;
+    font-size: 30px !important;
+  }
+}
+
+.stats {
+  margin-top: 20px;
+  padding: 20px 0px;
+}

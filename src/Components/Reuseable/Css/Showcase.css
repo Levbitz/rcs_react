@@ -1,0 +1,39 @@
+.Showcase_wrapper {
+  background-image: url("../../../Images/banner4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+}
+
+@media screen and(max-width :670px) {
+  .Showcase_wrapper {
+    min-height: 30vh !important;
+  }
+}
+
+.my_showcase_content {
+  margin-top: 100px;
+}
+@media screen and(max-width :670px) {
+  .my_showcase_content {
+    margin-top: 10px;
+  }
+}
+.my_showcase_content h2 {
+  font-weight: 700;
+  line-height: 5rem;
+}
+
+@media screen and(max-width :670px) {
+  .my_showcase_content h2 {
+    font-weight: 300;
+    line-height: 1rem;
+    font-size: 30px !important;
+  }
+}
+
+.stats {
+  margin-top: 20px;
+  padding: 20px 0px;
+}
